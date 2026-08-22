@@ -24,11 +24,11 @@ so you can see how each update rule changes an agent's estimates and behavior.
 
 | Stage | Topic | Core idea |
 |---:|---|---|
-| 1 | [`markov_chains`](01_markov_chains/) | Model states and transition dynamics |
-| 2 | [`value_functions`](02_value_functions/) | Estimate expected returns and solve small MDPs |
-| 3 | [`policy_iteration`](03_policy_iteration/) | Alternate policy evaluation and improvement |
-| 4 | [`monte_carlo_control`](04_monte_carlo_control/) | Learn action values from sampled episodes |
-| 5 | [`q_learning`](05_q_learning/) | Learn off-policy TD control from bootstrapped targets |
+| 1 | [`markov_chains`](markov_chains/) | Model states and transition dynamics |
+| 2 | [`value_functions`](value_functions/) | Estimate expected returns and solve small MDPs |
+| 3 | [`policy_iteration`](policy_iteration/) | Alternate policy evaluation and improvement |
+| 4 | [`monte_carlo_control`](monte_carlo_control/) | Learn action values from sampled episodes |
+| 5 | [`q_learning`](q_learning/) | Learn off-policy TD control from bootstrapped targets |
 
 Start at Stage 1 if reinforcement learning is new to you, or jump directly to the
 folder matching the concept you want to practice.
@@ -51,9 +51,9 @@ jupyter lab
 ```
 
 Open a topic folder and run its notebooks in order. For Q-learning, begin with
-[`01_q_learning_exercises.ipynb`](05_q_learning/01_q_learning_exercises.ipynb),
+[`01_q_learning_exercises.ipynb`](q_learning/01_q_learning_exercises.ipynb),
 then compare your work with
-[`02_q_learning_full_solution.ipynb`](05_q_learning/02_q_learning_full_solution.ipynb).
+[`02_q_learning_full_solution.ipynb`](q_learning/02_q_learning_full_solution.ipynb).
 
 ## Conventions
 
