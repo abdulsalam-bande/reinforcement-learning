@@ -1,1 +1,14 @@
-/.venv/
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python and Jupyter-generated files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# IDE and macOS metadata
+.idea/
+.DS_Store
